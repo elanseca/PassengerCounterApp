@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    text-align: center;
+    max-width: 50%;
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 5px;
+    margin: auto;
+    background-image: url('wallpaper.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*----------- F O N T S -----------*/
+
+@font-face{
+    font-family: Dinofiles;
+    src: url(Dinofiles.ttf);
+}
+
+@font-face{
+    font-family: Janda Manatee Solid;
+    src: url(JandaManateeSolid.ttf);
+}
+
+/*/////// F O N T S  E N D///////*/
+
+h3{
+    font-family: Dinofiles;
+    font-size: 50px;
+    margin: 30px 5px 10px 5px;
+    padding: 0;
+    color: #f9f694;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+/*----------- B U T T O N S -----------*/
+
+.all-btn{
+    text-align: center;
+    max-width: 20%;
+    margin: auto;
+    padding: 0;
+    margin-bottom: 10px;
+    
+}
+
+.all-btn-two{
+    text-align: center;
+    /* max-width: 20%; */
+    margin: auto;
+    padding: 0;
+    margin-bottom: 10px;
+    
+}
+
+button{
+    font-family: Janda Manatee Solid;
+    margin: 5px 0;
+    padding: 0;
+    
+}
+
+#increment-btn{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(119, 198, 255);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    border: 1px solid rgb(119, 198, 255);
+    border-radius: 2px;
+    padding: 2px 5px;
+}
+
+#decrement-btn{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(194, 119, 255);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    border: 1px solid rgb(194, 119, 255);
+    border-radius: 2px;
+    padding: 2px 5px;
+}
+
+#save-btn{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(139, 255, 119);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    border: 1px solid rgb(139, 255, 119);
+    border-radius: 2px;
+    padding: 2px 5px;
+}
+
+#reset-btn{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(255, 119, 119);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    border: 1px solid rgb(255, 119, 119);
+    border-radius: 2px;
+    padding: 2px 5px;
+}
+
+/*HOVER*/
+
+#increment-btn:hover{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(91, 153, 198);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    border: 1px solid rgb(91, 153, 198);
+    border-radius: 2px;
+    padding: 2px 5px;
+}
+
+#decrement-btn:hover{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(163, 100, 215);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    border: 1px solid rgb(163, 100, 215);
+    border-radius: 2px;
+    padding: 2px 5px;
+}
+
+#save-btn:hover{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(104, 191, 88);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    border: 1px solid rgb(104, 191, 88);
+    border-radius: 2px;
+    padding: 2px 5px;
+}
+
+#reset-btn:hover{
+    font-size: 20px;
+    color: white;
+    background-color: rgb(189, 87, 87);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    border: 1px solid rgb(189, 87, 87);
+    border-radius: 2px;
+    padding: 2px 5px;
+}
+
+/*/////// B U T T O N S  E N D ///////*/
+
+#sum-All{
+    font-size: 50px;
+    font-family: Janda Manatee Solid;
+    margin: 0;
+    padding: 0;
+    color: #FBF8AE;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+
+
+#prevEntries{
+    font-size: 15px;
+    font-family: Janda Manatee Solid;
+    margin: 0;
+    padding: 0;
+    color: #f9c17d;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
